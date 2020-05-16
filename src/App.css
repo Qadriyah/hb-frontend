@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+.sprite {
+  width: 30px;
+  height: 30px;
+}
+
+.cell {
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.moves {
+  font-size: 24px;
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  border: solid thin 1px;
+}
+
+button {
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color:green;
+  color: white;
+}
+
+button:hover {
+  background-color: rgb(5, 207, 5);
+  color: white;
+  border: none;
+}
+
+.label {
+  font-size: 18px;
+  padding: 10px;
+}
